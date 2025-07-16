@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: inter;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.paytm-header {
+    width: 80% !important;
+
+}
+
+.paytm-header-bg {
+    width: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0 5px 20px rgba(0, 41, 112, .1);
+    box-shadow: 0 5px 20px rgba(0, 41, 112, .1);
+
+}
+
+.paytm-header-navbar {
+    font-weight: 600;
+    font-size: 14px;
+    color: black !important;
+}
+
+.paytm-header-navbar a {
+    padding: 10px 12px !important;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.download_icon {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+.download_icon_row {
+    padding: 8px 16px;
+    border-radius: 18px;
+    margin-right: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #002970;
+    font-weight: 600;
+}
+
+.sigin_row {
+    padding: 2px 15px 2px 2px;
+    background: #002970;
+    border-radius: 18px;
+    min-width: 90px;
+    max-width: 115px;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.sigin_img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+.rightside {
+    display: flex;
+}
+
+/* Footer */
+
+footer {
+    background: #fff;
+    font-family: inter;
+}
+
+.paytm-footer {
+    width: 80% !important;
+    margin: 40px 0px;
+}
+
+.line {
+    margin-top: 40px;
+}
+
+.copysocial {
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #707070;
+    font-weight: 500;
+}
+
+.social a {
+    text-decoration: none;
+    color: rgb(255 255 255) !important;
+    margin-left: 15px;
+}
+.social {
+    display: flex;
+}
+
+.footerline::before{
+    background: #00baf2;
+}
+
+.footerline::after {
+    background: #002970;
+}
+
+.footerline:after, .footerline:before {
+    height: 14px;
+    content: "";
+    display: block;
+}
