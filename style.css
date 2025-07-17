@@ -133,3 +133,99 @@ footer {
     content: "";
     display: block;
 }
+
+.paytmbusiness {
+    padding: 16px 0;
+    background-color: #f7f9fc;
+    display: flex;
+    justify-content: center;
+}
+
+.row_style {
+    width: 80% !important;
+    border-radius: 20px;
+    background-color: #fff;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    padding: 52px 74px 52px 100px;
+}
+
+.paytmbusiness_img {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    max-width: 475px;
+    max-height: 440px;
+}
+
+.img_bus_row {
+    margin-bottom: 12px;
+    max-width: 150px;
+    max-height: 50px;
+}
+
+.patmbusiness_heading {
+    margin-bottom: 18px;
+    font-size: 40px;
+    color: #000;
+    font-weight: 700;
+}
+.patmbusiness_p {
+    margin-bottom: 32px;
+    font-size: 17px;
+    color: #000;
+    font-weight: 500;
+}
+.patmbusiness_btn span {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #002970;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 35px;
+    color: #fff;
+}
+
+
+.patmbusiness_btn a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.card_row_style {
+    width: 80% !important;
+}
+.credit-card {
+    padding: 50px 50px 20px !important;
+    border-radius: 20px;
+    background-color: #fff;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
+}
+.patymcard {
+    display: flex;
+    justify-content: center;
+    background-color: #f7f9fc
+}
+
+.card-btn a {
+    font-weight: 600;
+    border: 1px solid;
+    color: #002970;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    border-color: #002970;
+    text-decoration: none;
+    cursor: pointer;
+}
