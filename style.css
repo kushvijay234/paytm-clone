@@ -313,4 +313,86 @@ footer {
     object-fit: fill;
     width: 100%;
     height: auto;
+} 
+.recharge-bills-rows {
+    gap: 20px;
+}
+.recharge-bills {
+    display: flex;
+    justify-content: center;
+    padding: 16px 0;
+    background-color: #f7f9fc;
+}
+
+.recharge, .bills{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.recharge-main p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+}
+
+.recharge-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-items: self-start;
+}
+.recharge-card .recharge-card-item img {
+    width: 48px;
+    height: 48px;
+}
+
+.recharge-card .recharge-card-item .recharge-card-ahref {
+    flex: 1 1;
+    padding: 25px 0;
+    box-sizing: border-box;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.recharge-card .recharge-card-item .recharge-card-ahref:hover{
+    box-shadow: 0 15.96px 53.83px 0 rgba(184, 185, 228, .4), 1px 1px 0 0 #fff;
+    cursor: pointer;
+}
+
+.recharge-card .recharge-card-item .recharge-card-ahref span {
+    max-width: 80px;
+    margin-top: 16px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+
+.footer-accordion-tab {
+    gap: 12px;
+    padding: 15px 0;
+    cursor: pointer;
+    position: relative;
+    font-size: 14px;
+    color: #707070;
+    font-weight: 700;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    text-decoration: none;
+}
+
+.footer-accordion-tab::before {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #ccc;
 }
