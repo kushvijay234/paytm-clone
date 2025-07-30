@@ -288,3 +288,29 @@ footer {
     flex: 1 1;
     margin-right: 15px;
 }
+
+.paytm-money {
+    display: flex;
+    justify-content: center;
+    padding: 16px 0;
+    background-color: #f7f9fc;
+}
+
+.paytm-money-row {
+    border-radius: 20px;
+    background-color: #fff;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.paytm-money-col {
+    padding: 20px 0 20px 100px;
+}
+
+.paytm-money-col-2 img{
+    object-fit: fill;
+    width: 100%;
+    height: auto;
+}
