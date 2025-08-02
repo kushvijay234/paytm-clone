@@ -32,19 +32,55 @@
                 <div class="collapse navbar-collapse paytm-header-navbar" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Ticket Booking</a>
+                            <a class="nav-link active" aria-current="page" href="#">Ticket Booking <span
+                                    class="downarrow"></span></a>
+                            <ul class="submenu">
+                                <div class="J2oUc">
+                                    <div class="_1E2ZK"></div>
+                                </div>
+                                <li class="submenutext">Train Ticket</li>
+                                <li class="submenutext">Movie Ticket</li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Recharge & Bills</a>
+                            <a class="nav-link" href="#">Recharge & Bills <span class="downarrow"></span></a>
+                            <ul class="submenu">
+                                <div class="J2oUc">
+                                    <div class="_1E2ZK"></div>
+                                </div>
+                                <li class="submenutext">Mobile Recharge</li>
+                                <li class="submenutext">Electricity Bill</li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Payments & Services</a>
+                            <a class="nav-link">Payments & Services <span class="downarrow"></span></a>
+                            <ul class="submenu">
+                                <div class="J2oUc">
+                                    <div class="_1E2ZK"></div>
+                                </div>
+                                <li class="submenutext">Payment</li>
+                                <li class="submenutext">Wealth</li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Paytm for Business</a>
+                            <a class="nav-link">Paytm for Business <span class="downarrow"></span></a>
+                            <ul class="submenu">
+                                <div class="J2oUc">
+                                    <div class="_1E2ZK"></div>
+                                </div>
+                                <li class="submenutext">Online Payment</li>
+                                <li class="submenutext">Offline Payment </li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Company</a>
+                            <a class="nav-link">Company <span class="downarrow"></span></a>
+                            <ul class="submenu">
+                                <div class="J2oUc">
+                                    <div class="_1E2ZK"></div>
+                                </div>
+                                <li class="submenutext">About</li>
+                                <li class="submenutext">Blog</li>
+                            </ul>
                         </li>
                     </ul>
                     <div class="rightside">
@@ -53,7 +89,7 @@
                                 class="download_icon">
                             Download App
                         </div>
-                        <div class="sigin_row">
+                        <div class="sigin_row" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <img src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logoutImg.svg"
                                 alt="" class="sigin_img">
                             <span title="Sign In">Sign In</span>
@@ -114,7 +150,7 @@
                             <label for="oneway" style="font-size: 14px; font-weight: 500;padding-left: 9px;">One
                                 Way</label>
                         </span>
-                        <span class="roundtrip"> 
+                        <span class="roundtrip">
                             <input type="radio" name="tripType" label="roundway" style="transform: scale(1.5);">
                             <label for="roundway" style="font-size: 14px; font-weight: 500; padding-left: 9px;">Round
                                 Trip</label>
@@ -172,8 +208,9 @@
                                 <div class="fareh">Special Fares (optional)</div>
                                 <div class="farec"><img
                                         src="https://pwebassets.paytm.com/frontendcommonweb/static/a6fdca89..png"
-                                        alt="rupeeSymbolGreeenBg" width="14px", height="14px">
-                                        <span>Extra Savings</span></div>
+                                        alt="rupeeSymbolGreeenBg" width="14px" , height="14px">
+                                    <span>Extra Savings</span>
+                                </div>
                             </div>
                             <div role="button" tabindex="0" class="farebtn">
                                 <div class="btntext">Armed Forces</div>
@@ -273,7 +310,7 @@
                     width="140px">
 
                 <div class="patmbusiness_heading">
-                    Everything you need to start your <span style="color: #00baf2;">investment journey</span> 
+                    Everything you need to start your <span style="color: #00baf2;">investment journey</span>
                 </div>
                 <div class="patmbusiness_p">
                     Whether you're a beginner or pro, Paytm Money helps you invest smarter and achieve financial
@@ -466,6 +503,80 @@
 
         </div>
     </footer>
+
+    <!-- Popup Signin -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title " id="exampleModalLabel">Login with your Paytm account
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body maincont">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="descCont">
+                                <div class="modalheading" oauth-id="qr">Steps to scan QR Code</div>
+                                <p class="info" oauth-id="qrInfo"></p>
+                                <div class="steps">
+                                    <div class="loginSteps">
+                                        <ol>
+                                            <li style="padding-bottom: 12px;">
+                                                <span class="modaltext">Open Paytm App</span>
+                                            </li>
+                                            <li style="padding-bottom: 12px;">
+                                                <span class="modaltext">
+                                                    Tap Scan option
+                                                    available at the bottom</span>
+                                            </li>
+                                            <li style="padding-bottom: 12px;">
+                                                <span class="modaltext">Point Paytm Scan at QR
+                                                    Code to login</span>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="qr">
+                                <img src="./assets/qr.png" alt="Qr Code for Login" width="100%" height="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row term">
+                    <p>By signing in, you agree to our <span style="color: #00b9f5">privacy policy</span> and <span
+                            style="color: #00b9f5">terms of use</span></p>
+                </div>
+                <div class="modal-footer"> 
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="div" style="font-size: 14px;">To create an account download Paytm
+                            App</div>
+                        </div>
+                        <div class="col-lg-6 d-flex">
+                                <div class="col">
+                                    <a href="https://p.paytm.me/xCTH/adidwlsios" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <img src="https://accounts.paytm.com/oauth-js-sdk/c6be4705ad32e081df3d6816faa4555a.svg"
+                                            alt="app-store-link" width="100%">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="#" target="_blank" rel="noopener noreferrer"><img
+                                            src="https://accounts.paytm.com/oauth-js-sdk/c0e2feaef05109ec2b59fd0e577ed6a9.svg"
+                                            alt="play-store-link" width="100%">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
