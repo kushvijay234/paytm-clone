@@ -15,6 +15,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./mobilestyles.css">
 </head>
 
 <body>
@@ -62,11 +63,143 @@
             </div>
         </nav>
     </header>
+    <!-- Booking & Enquiry -->
+    <section class="booking-enquiry">
+        <div class="row card_row_style booking-enquiry-rows">
+            <div class="booking-enquiry-main">
+                <div class="booking-enquiry-tab">
+                    <nav class="col-lg-10 d-flex ">
+                        <a class="col-lg-3 btab">
+                            <div class="booking-enquiry-tab-item">
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/3082534/22720698601946286.png"
+                                    loading="lazy" class="qmD4o" id="Flights" alt="Flights"><span
+                                    class="booking-enquiry-span">Flights</span>
+                            </div>
+
+                        </a>
+                        <a class="col-lg-3">
+                            <div class="booking-enquiry-tab-item">
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/3082535/22720714168453281.png"
+                                    loading="lazy" class="qmD4o" id="Bus" alt="Bus"><span
+                                    class="booking-enquiry-span">Bus</span>
+                            </div>
+
+                        </a>
+                        <a class="col-lg-3 ">
+                            <div class="booking-enquiry-tab-item">
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/3082536/22720736039116955.png"
+                                    loading="lazy" class="qmD4o" id="Trains" alt="Trains"><span
+                                    class="booking-enquiry-span">Trains</span>
+                            </div>
+
+                        </a>
+                        <a class="col-lg-3 ">
+                            <div class="booking-enquiry-tab-item">
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/3082539/15632405671511461.png"
+                                    loading="lazy" class="qmD4o" id="Intl. Flights" alt="Intl. Flights"><span
+                                    class="booking-enquiry-span">Intl.
+                                    Flights</span>
+                            </div>
+
+                        </a>
+                    </nav>
+                    <div class="col-lg-2 d-flex paytmtravelrow"><img
+                            src="https://paytmtravel-images-akamai.paytm.com/icons/Paytm_Travel_Logo.svg"
+                            alt="travelLogo" class="paytmtravelimg"></div>
+                </div>
+                <div class="booking-enquiry-content">
+                    <div class="tripway">
+                        <span class="oneway">
+                            <input type="radio" name="tripType" label="oneway" style="transform: scale(1.5);">
+                            <label for="oneway" style="font-size: 14px; font-weight: 500;padding-left: 9px;">One
+                                Way</label>
+                        </span>
+                        <span class="roundtrip"> 
+                            <input type="radio" name="tripType" label="roundway" style="transform: scale(1.5);">
+                            <label for="roundway" style="font-size: 14px; font-weight: 500; padding-left: 9px;">Round
+                                Trip</label>
+                        </span>
+                    </div>
+                    <!--  -->
+                    <div class="search">
+                        <div class="fromto">
+                            <div class="from" id="from">
+                                <span class="fromtext"> <!-- -->From<!-- --> </span>
+                                <span class="cityname" id="srcCode"><span>Delhi</span>
+                                    <span> (DEL)</span></span>
+                            </div>
+                            <img class="triparrow"
+                                src="https://pwebassets.paytm.com/frontendcommonweb/static/e5e744ba..png" id="arrow"
+                                alt="arrow">
+
+                            <div class="from" id="to">
+                                <span class="fromtext"> <!-- -->To</span>
+                                <span class="cityname" id="destCode"><span>Mumbai</span>
+                                    <span> (BOM)</span></span>
+                            </div>
+                        </div>
+                        <div class="departreturn">
+                            <div class="depart">
+                                <span class="fromtext">Depart</span>
+                                <span class="cityname" id="departureDate">Wed, 06Aug 25</span>
+                            </div>
+                            <div class="return">
+                                <div class="fromtext" id="saveMore">
+                                    <span class="Xtdbd">Return</span>
+                                </div>
+                                <div class="_8hWeU">
+                                    <span class="returntext" id="addReturn">Add Return</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pclass">
+                            <div class="pclassrow" id="travellerClass">Passenger &amp; Class
+                                <div class="pinput">
+                                    <span class="inputtext">1 Traveller, Economy
+                                    </span>
+                                    <i class="_23hpe"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="searchrow">
+                            <button class="searchbtn">Search Flights</button>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="specialfare">
+                        <div class="farerow">
+                            <div>
+                                <div class="fareh">Special Fares (optional)</div>
+                                <div class="farec"><img
+                                        src="https://pwebassets.paytm.com/frontendcommonweb/static/a6fdca89..png"
+                                        alt="rupeeSymbolGreeenBg" width="14px", height="14px">
+                                        <span>Extra Savings</span></div>
+                            </div>
+                            <div role="button" tabindex="0" class="farebtn">
+                                <div class="btntext">Armed Forces</div>
+                                <div class="off">Up to ₹600 off</div>
+                            </div>
+                            <div role="button" tabindex="0" class="farebtn">
+                                <div class="btntext">Student</div>
+                                <div class="off">Extra Baggage</div>
+                            </div>
+                            <div role="button" tabindex="0" class="farebtn">
+                                <div class="btntext">Senior Citizen</div>
+                                <div class="off">Up to ₹600 off</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
 
     <!-- Recharge & Bills Payment Section -->
     <section class="recharge-bills">
         <div class="row card_row_style recharge-bills-rows">
-            <div class="col-lg-6 recharge">
+            <div class="col-lg-6 col-sm-12 recharge">
                 <div class="recharge-main">
                     <div class="recharge-heading">
                         <p>Recharge</p>
@@ -98,7 +231,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 bills">
+            <div class="col-lg-6 col-sm-12 bills">
                 <div class="recharge-main">
                     <div class="recharge-heading">
                         <p>Bill Payments</p>
@@ -140,7 +273,7 @@
                     width="140px">
 
                 <div class="patmbusiness_heading">
-                    Everything you need to start your investment journey
+                    Everything you need to start your <span style="color: #00baf2;">investment journey</span> 
                 </div>
                 <div class="patmbusiness_p">
                     Whether you're a beginner or pro, Paytm Money helps you invest smarter and achieve financial
@@ -153,9 +286,11 @@
                 </div>
                 <br>
                 <div>
-                    <p>Investments in the securities market are subject to market risks, read all the related documents
+                    <p class="investment">Investments in the securities market are subject to market risks, read all the
+                        related documents
                         carefully before investing. For complete Terms & Conditions and Disclaimers visit:
-                        https://www.paytmmoney.com/stocks/policies/terms</p>
+                        <a href="#">https://www.paytmmoney.com/stocks/policies/terms</a>
+                    </p>
                 </div>
             </div>
             <div class="col-lg-6 paytm-money-col-2">
@@ -255,13 +390,41 @@
         <div class="container-fluid paytm-footer">
             <div class="accordion-footer">
                 <div class="row">
-                    <a href="" class="footer-accordion-tab">
+                    <a class="footer-accordion-tab">
                         <div>Investor Relations</div>
                         <img alt="plus" loading="lazy"
                             src="https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/plus.svg">
                     </a>
                     <div class="footer-accordion-content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla exercitationem nihil,
+                        <p class="footer-accordion-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                            exercitationem nihil,
+                            inventore nisi dignissimos voluptates quam aliquam, officiis iusto corrupti reprehenderit,
+                            sint velit suscipit laborum!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <a class="footer-accordion-tab">
+                        <div>More about Paytm</div>
+                        <img alt="plus" loading="lazy"
+                            src="https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/plus.svg">
+                    </a>
+                    <div class="footer-accordion-content">
+                        <p class="footer-accordion-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                            exercitationem nihil,
+                            inventore nisi dignissimos voluptates quam aliquam, officiis iusto corrupti reprehenderit,
+                            sint velit suscipit laborum!</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <a class="footer-accordion-tab">
+                        <div>Company</div>
+                        <img alt="plus" loading="lazy"
+                            src="https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/plus.svg">
+                    </a>
+                    <div class="footer-accordion-content">
+                        <p class="footer-accordion-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                            exercitationem nihil,
                             inventore nisi dignissimos voluptates quam aliquam, officiis iusto corrupti reprehenderit,
                             sint velit suscipit laborum!</p>
                     </div>

@@ -116,11 +116,12 @@ footer {
     color: rgb(255 255 255) !important;
     margin-left: 15px;
 }
+
 .social {
     display: flex;
 }
 
-.footerline::before{
+.footerline::before {
     background: #00baf2;
 }
 
@@ -128,7 +129,8 @@ footer {
     background: #002970;
 }
 
-.footerline:after, .footerline:before {
+.footerline:after,
+.footerline:before {
     height: 14px;
     content: "";
     display: block;
@@ -171,12 +173,14 @@ footer {
     color: #000;
     font-weight: 700;
 }
+
 .patmbusiness_p {
     margin-bottom: 32px;
     font-size: 17px;
     color: #000;
     font-weight: 500;
 }
+
 .patmbusiness_btn span {
     font-size: 16px;
     font-weight: 600;
@@ -190,7 +194,7 @@ footer {
 }
 
 
-.patmbusiness_btn a{
+.patmbusiness_btn a {
     text-decoration: none;
     color: white;
     cursor: pointer;
@@ -200,6 +204,7 @@ footer {
     width: 80% !important;
     flex-wrap: nowrap !important;
 }
+
 .credit-card {
     padding: 50px 50px 20px !important;
     border-radius: 20px;
@@ -212,6 +217,7 @@ footer {
     margin-right: 10px;
 
 }
+
 .patymcard {
     display: flex;
     justify-content: center;
@@ -240,9 +246,10 @@ footer {
     width: 100%;
     height: 335px;
     max-width: 425px;
-    
+
 }
-.insurance{
+
+.insurance {
     padding: 50px 50px 20px !important;
     background-color: #fff;
     border-radius: 20px;
@@ -252,8 +259,9 @@ footer {
     display: flex;
     justify-content: center;
     padding: 16px 0;
-    background-color: #f7f9fc;   
+    background-color: #f7f9fc;
 }
+
 .onebannerrowa {
     padding: 12px 20px;
     border-radius: 12px;
@@ -265,6 +273,7 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
+
 .onebannerrow-img {
     margin-right: 20px;
     width: 46px;
@@ -284,6 +293,7 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
+
 .banner-text {
     flex: 1 1;
     margin-right: 15px;
@@ -309,14 +319,16 @@ footer {
     padding: 20px 0 20px 100px;
 }
 
-.paytm-money-col-2 img{
+.paytm-money-col-2 img {
     object-fit: fill;
     width: 100%;
     height: auto;
-} 
+}
+
 .recharge-bills-rows {
     gap: 20px;
 }
+
 .recharge-bills {
     display: flex;
     justify-content: center;
@@ -324,7 +336,8 @@ footer {
     background-color: #f7f9fc;
 }
 
-.recharge, .bills{
+.recharge,
+.bills {
     background-color: #fff;
     border-radius: 20px;
     padding: 12px;
@@ -344,6 +357,7 @@ footer {
     margin-bottom: 10px;
     align-items: self-start;
 }
+
 .recharge-card .recharge-card-item img {
     width: 48px;
     height: 48px;
@@ -363,7 +377,7 @@ footer {
     text-decoration: none;
 }
 
-.recharge-card .recharge-card-item .recharge-card-ahref:hover{
+.recharge-card .recharge-card-item .recharge-card-ahref:hover {
     box-shadow: 0 15.96px 53.83px 0 rgba(184, 185, 228, .4), 1px 1px 0 0 #fff;
     cursor: pointer;
 }
@@ -396,3 +410,327 @@ footer {
     flex: 1 1;
     border-bottom: 1px solid #ccc;
 }
+
+.footer-accordion-content {
+    display: none;
+}
+
+
+.footer-accordion-text {
+    font-size: 12px;
+    color: #505050;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.plus {
+    transform: rotate(45deg);
+}
+
+.booking-enquiry {
+    background-color: #e8f8fd;
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.booking-enquiry-rows {
+    display: flex;
+    justify-content: center;
+    padding: 16px 0;
+}
+
+.booking-enquiry-tab {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.booking-enquiry-tab a {
+    width: 72px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.btab:after {
+    content: "";
+    display: block;
+    background: #00baf2;
+    width: 100;
+    height: 2px;
+}
+
+.booking-enquiry-tab-item {
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 11px;
+}
+
+.booking-enquiry-tab-item img {
+    margin-bottom: 3px;
+    width: 38px;
+    height: 38px;
+}
+
+.booking-enquiry-span {
+    font-size: 12px;
+    color: #101010;
+    font-weight: 600;
+    line-height: 15px;
+}
+
+.investment {
+    font-size: 12px;
+    color: #707070;
+    font-weight: 500;
+}
+
+.paytmtravelimg {
+    width: 140px;
+    height: 21px;
+}
+
+.paytmtravelrow {
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.booking-enquiry-content {
+    padding: 20px 0 16px 20px;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    margin-top: 8px;
+    border-radius: 12px;
+}
+
+.tripway {
+    width: 100%;
+}
+
+.oneway {
+    margin-right: 36px;
+}
+
+.roundtrip {
+    margin-right: 36px;
+}
+
+.oneway .roundtrip {
+
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search {
+    border-bottom: 1px solid #cacaca;
+    padding-bottom: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+}
+
+.fromto {
+    position: relative;
+    flex-basis: 39%;
+    padding-right: 15px;
+    border-right: 1px solid #cacaca;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.from .to {
+    font-size: 12px;
+    color: #7e7e7e;
+    font-weight: 400;
+    width: 182px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fromtext {
+    font-size: 12px;
+    color: hsla(0, 0%, 6%, .54);
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.cityname {
+    font-size: 16px;
+    color: #101010;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 2px 0;
+    display: flex;
+}
+
+.triparrow {
+    margin: 0 8px 2px 4px;
+    width: 24px;
+    height: 24px;
+}
+
+.departreturn {
+    padding: 0 10px 0 16px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    flex-basis: 35%;
+    border-right: 1px solid #cacaca;
+}
+
+.depart {
+    flex-basis: 45%;
+    padding-right: 16px;
+    border-right: 1px solid #cacaca;
+    font-size: 12px;
+    color: #7e7e7e;
+    font-weight: 400;
+    line-height: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.return {
+    font-size: 12px;
+    color: #7e7e7e;
+    font-weight: 400;
+    line-height: 16px;
+    flex-basis: 52%;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.returntext {
+    padding: 3px 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #00baf2;
+}
+
+.pclass {
+    flex-basis: 22%;
+    padding-right: 0;
+    border-right: none;
+    position: relative;
+    padding: 0 10px 0 16px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.pclassrow {
+    flex-basis: 100%;
+    padding-right: 0;
+    border-right: none;
+    font-size: 12px;
+    color: #7e7e7e;
+    font-weight: 400;
+    line-height: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pinput {
+    padding-top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.inputtext {
+    padding: 3px 0;
+    font-size: 16px;
+    color: #101010;
+    font-weight: 600;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.searchrow {
+    padding-right: 20px;
+}
+
+.searchbtn {
+    background: #00baf2;
+    color: #fff;
+    font-size: 16px;
+    height: 52px;
+    width: 154px;
+    border-radius: 8px;
+    font-weight: 700;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    cursor: pointer;
+}
+
+.specialfare {
+    padding-top: 10px;
+    transition: height .25s ease-in-out;
+    /* height: 48px;
+    overflow: hidden; */
+}
+
+.farerow {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.fareh {
+    padding-right: 12px;
+    font-size: 14px;
+    color: hsla(0, 0%, 6%, .54);
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.farec {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.farec span {
+    margin-left: 5px;
+    font-size: 12px;
+    color: #27ae60;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.farebtn {
+    border: 1px solid hsla(0, 0%, 6%, .13);
+    padding: 7px 12px;
+    border-radius: 8px;
+    margin: 0 8px 0 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 14px;
+    color: hsla(0, 0%, 6%, .54);
+    font-weight: 500;
+    line-height: 20px;
+}
+.btntext {
+    font-size: 12px;
+    color: #101010;
+    font-weight: 600;
+    line-height: 16px;
+}
+.off {
+    font-size: 10px;
+    color: hsla(0, 0%, 6%, .54);
+    font-weight: 600;
+    line-height: 16px;
+}
+

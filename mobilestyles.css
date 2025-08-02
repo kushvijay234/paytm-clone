@@ -1,0 +1,23 @@
+@media (min-width: 1px) and (max-width: 475px) {
+    .card_row_style {
+        flex-wrap: wrap !important;
+        width: 92% !important;
+    }
+
+    .booking-enquiry {
+        display: none;
+    }
+
+    .paytm-money-col {
+        width: 100%;
+        padding: 40px 35px 20px;
+    }
+    .patmbusiness_heading {
+        margin-bottom: 8px;
+        font-size: 20px;
+    }
+    .patmbusiness_p {
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+}
